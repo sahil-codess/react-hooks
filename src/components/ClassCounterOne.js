@@ -1,4 +1,4 @@
-import React, { Component, component } from "react"
+import React, { Component } from "react"
 
 class ClassCounterOne extends Component {
     constructor(props) {
