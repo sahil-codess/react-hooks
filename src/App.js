@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import ComponentE from './components/ComponentE';
 import ComponentF from './components/ComponentF';
 
 export const UserContext = React.createContext()
@@ -11,7 +12,7 @@ function App() {
     <div className="App">
       <UserContext.Provider value={'Sahilkhan'}>
         <ChannelContext.Provider value={'Code Evolution'}>
-          <ComponentF />
+          <ComponentE />
         </ChannelContext.Provider>
       </UserContext.Provider>
     </div>
