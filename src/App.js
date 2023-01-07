@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import ReducerCounterOne from './components/ReducerCounterOne';
+import ReducerCounterThree from './components/ReducerCounterThree';
 import ReducerCounterTwo from './components/ReducerCounterTwo';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
   return (
     <div className="App">
       {/* <ReducerCounterOne /> */}
-      <ReducerCounterTwo />
+      {/* <ReducerCounterTwo /> */}
+      <ReducerCounterThree />
     </div>
   );
 }
